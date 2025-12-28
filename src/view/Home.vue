@@ -2,12 +2,14 @@
 import Navbar from "../components/Navbar.vue";
 import Hero from "../components/Hero.vue";
 import Features from "../components/Features.vue";
+import Benefits from "../components/Benefits.vue";
 export default {
   name: "Home",
   components: {
     Navbar,
     Hero,
     Features,
+    Benefits,
   },
 };
 </script>
@@ -26,5 +28,9 @@ export default {
     <!-- Features Section -->
     <Features />
     <!-- Features Section -->
+
+    <!-- Benefits Section -->
+    <Benefits />
+    <!-- Benefits Section -->
   </div>
 </template>
