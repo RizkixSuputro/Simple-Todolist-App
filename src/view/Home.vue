@@ -4,6 +4,8 @@ import Hero from "../components/Hero.vue";
 import Features from "../components/Features.vue";
 import Benefits from "../components/Benefits.vue";
 import Contact from "../components/Contact.vue";
+import Footer from "../components/Footer.vue";
+
 export default {
   name: "Home",
   components: {
@@ -12,6 +14,7 @@ export default {
     Features,
     Benefits,
     Contact,
+    Footer,
   },
 };
 </script>
@@ -38,5 +41,9 @@ export default {
     <!-- Contact Section -->
     <Contact />
     <!-- Contact Section -->
+
+    <!-- footer section -->
+    <Footer />
+    <!-- footer section -->
   </div>
 </template>
