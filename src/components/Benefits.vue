@@ -41,7 +41,7 @@ export default {
       <h1 class="font-poppins text-center text-3xl">Application Benefits</h1>
 
       <div
-        class="card-container flex max-sm:flex-col mt-10 gap-3 p-20 shadow-xl max-sm:p-10"
+        class="card-container flex max-sm:flex-col mt-10 gap-3 p-20 max-sm:p-10"
       >
         <!-- card content -->
         <div
