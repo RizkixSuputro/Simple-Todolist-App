@@ -1,6 +1,10 @@
 <script>
+import { Icon } from "@iconify/vue";
 export default {
   name: "benefits",
+  components: {
+    Icon,
+  },
   data() {
     return {
       benefits: [
@@ -9,14 +13,14 @@ export default {
           title: "Easy to Use",
           description:
             "A simple and intuitive interface that lets you manage tasks without any learning curve.",
-          icon: "mdi:hand-okay-outline",
+          icon: "fluent-color:checkmark-circle-32",
         },
         {
           id: 2,
           title: "Data Saved Automatically",
           description:
             "Your tasks are stored safely in the browser using local storage, so nothing gets lost.",
-          icon: "mdi:content-save-outline",
+          icon: "fluent-color:data-pie-24",
         },
         {
           id: 3,
