@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar.vue";
 import Hero from "../components/Hero.vue";
 import Features from "../components/Features.vue";
 import Benefits from "../components/Benefits.vue";
+import Contact from "../components/Contact.vue";
 export default {
   name: "Home",
   components: {
@@ -10,6 +11,7 @@ export default {
     Hero,
     Features,
     Benefits,
+    Contact,
   },
 };
 </script>
@@ -32,5 +34,9 @@ export default {
     <!-- Benefits Section -->
     <Benefits />
     <!-- Benefits Section -->
+
+    <!-- Contact Section -->
+    <Contact />
+    <!-- Contact Section -->
   </div>
 </template>
