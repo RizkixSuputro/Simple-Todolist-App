@@ -27,19 +27,29 @@ export default {
     <!-- Navbar Sextion -->
 
     <!-- Hero Section -->
-    <Hero />
+    <section id="hero">
+      <Hero />
+    </section>
+
     <!-- Hero Section -->
 
     <!-- Features Section -->
-    <Features />
+    <section id="features">
+      <Features />
+    </section>
     <!-- Features Section -->
 
     <!-- Benefits Section -->
-    <Benefits />
+    <section id="benefits">
+      <Benefits />
+    </section>
     <!-- Benefits Section -->
 
     <!-- Contact Section -->
-    <Contact />
+    <section id="contact">
+      <Contact />
+    </section>
+
     <!-- Contact Section -->
 
     <!-- footer section -->
