@@ -28,7 +28,12 @@ export default {
           class="card-container flex max-sm:flex-col max-sm:p-10 justify-center gap-5 items-center text-center p-30 relative -mt-36 max-sm:-mt-16 z-20"
         >
           <!-- card information -->
-          <div class="card shadow-xl p-10 bg-white space-y-3">
+          <div
+            class="card shadow-xl p-10 bg-white space-y-3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <div
               class="card-icon text-5xl text-center flex justify-center text-black"
             >
@@ -50,7 +55,12 @@ export default {
           </div>
           <!-- card information -->
 
-          <div class="card shadow-xl p-10 bg-white space-y-3">
+          <div
+            class="card shadow-xl p-10 bg-white space-y-3"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+          >
             <div
               class="card-icon text-5xl text-center flex justify-center text-black"
             >

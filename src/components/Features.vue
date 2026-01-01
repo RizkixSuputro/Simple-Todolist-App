@@ -44,7 +44,14 @@ export default {
 
 <template>
   <div id="features" class="mt-3">
-    <h1 class="font-poppins text-center text-3xl">Our Features</h1>
+    <h1
+      class="font-poppins text-center text-3xl"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+    >
+      Our Features
+    </h1>
 
     <div
       class="card-container flex max-sm:flex-col mt-10 gap-3 p-20 max-sm:p-10"
@@ -52,8 +59,12 @@ export default {
       <!-- card content -->
       <div
         class="card text-center space-y-5 shadow-xl p-10 rounded-xl"
-        v-for="feature in features"
+        v-for="(feature, index) in features"
         :key="feature.id"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        :data-aos-delay="index * 200"
       >
         <div class="card-icon text-5xl text-center flex justify-center">
           <Icon :icon="feature.icon" />

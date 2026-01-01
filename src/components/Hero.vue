@@ -9,7 +9,12 @@ export default {
     <div
       class="hero-content flex max-sm:flex-col md:flex-row justify-center w-full md:pl-20"
     >
-      <div class="header-content max-sm:text-center space-y-6 max-w-xl mt-20">
+      <div
+        class="header-content max-sm:text-center space-y-6 max-w-xl mt-20"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      >
         <h1
           class="font-poppin font-bold max-sm:text-center mt-10 md:text-4xl max-sm:text-xl"
         >
@@ -34,6 +39,9 @@ export default {
         src="../assets/hero-img/3d-todo-cartoon.png"
         class="md:w-2xl md:h-3xl"
         alt="Todo Notes"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
       />
     </div>
   </div>
